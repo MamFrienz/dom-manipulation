@@ -18,7 +18,7 @@ textBtn.addEventListener('click',function(event){
   //task2b
   function  changeBGcolor(event){
       var body = document.getElementsByTagName('body')[0];
-      body.style.backgroundColor=event.target.innrerText.toL
+      body.style.backgroundColor=event.target.innrerText.toLowerCase();
      // if(event.target.innerText=="Red"){
         //  body.style.backgroundColor='red';
     //  }
