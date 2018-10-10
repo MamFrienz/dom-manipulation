@@ -15,4 +15,16 @@ textBtn.addEventListener('click',function(event){
     
 });
 
+  //task2b
+  function  changeBGcolor(event){
+      var body = document.getElementsByTagName('body')[0];
+      body.style.backgroundColor=event.target.innrerText.toL
+     // if(event.target.innerText=="Red"){
+        //  body.style.backgroundColor='red';
+    //  }
+     // if(event.target.innerText== "Green"){
+     //     body.style.backgroundColor='green';
+    //  }
+  }
+
 /* Task 4 using jQuery */
